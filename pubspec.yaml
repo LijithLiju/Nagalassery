@@ -1,0 +1,70 @@
+name: safeSoftware
+description: A Banking Project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.0+14
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webviewx: 0.2.1
+  intl:
+  date_format:
+  dots_indicator:
+  http: any
+  shared_preferences: any
+  flutter_neumorphic:
+  qr_flutter: ^3.2.0
+  qr_code_scanner: ^0.0.13
+  flutter_bloc:
+  equatable:
+  speech_to_text:
+  rename:
+  flutter_icons:
+  timeago:
+  url_launcher:
+  flutter_launcher_icons:
+  keyboard_avoider:
+  fluttertoast:
+  cupertino_icons: ^0.1.2
+  package_info: ^0.4.3
+  path_provider: ^1.6.11
+  screenshot: ^1.2.3
+  share_plus: ^1.1.1
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash:
+  flutter_launcher_icons:
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Medium.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
